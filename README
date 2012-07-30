@@ -12,7 +12,6 @@ To use it, include Testafy.jar in your classpath, along with its 5 dependencies:
     commons-codec-1.6.jar
     commons-logging-1.1.1.jar
     gson-2.2.1.jar
-    import com.testafy.*;
 
 Once you have these 6 files in your classpath, you can
     import com.testafy.Test;
