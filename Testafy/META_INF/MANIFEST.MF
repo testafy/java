@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Class-Path: commons-codec-1.6.jar commons-logging-1.1.1.jar gson-2.2.1.jar httpclient-4.2.jar httpcore-4.2.jar

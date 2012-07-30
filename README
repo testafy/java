@@ -1,0 +1,23 @@
+Testafy's Java API wrapper is copyright 2012 Grant Street Group, and is released under the GPLv3.
+It consists of a single package, com.testafy, containing:
+    - the primary class Test 
+    and two additional helper classes, 
+        - APIException
+        - TestafyResponseHandler
+
+Testafy.jar is an archive of the .class files for the project.
+To use it, include Testafy.jar in your classpath, along with its 5 dependencies:
+    httpcore-4.2.jar
+    httpclient-4.2.jar
+    commons-codec-1.6.jar
+    commons-logging-1.1.1.jar
+    gson-2.2.1.jar
+    import com.testafy.*;
+
+Once you have these 6 files in your classpath, you can
+    import com.testafy.Test;
+and start running tests.
+
+
+The source code of Testafy's Java API wrapper is contained in an Eclipse project, created using Eclipse 3.7 (AKA Indigo).
+If you are using a different version of eclipse, we recommend creating a new project rather than importing the existing one, as there may be significant version differences.
